@@ -1,0 +1,6 @@
+[Match]
+Name=macvtap*
+
+#[Link]
+#MTUBytes=8972
+

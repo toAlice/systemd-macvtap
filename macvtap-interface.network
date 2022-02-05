@@ -1,0 +1,9 @@
+[Match]
+Name=eth0
+
+[Network]
+MACVTAP=macvtap0
+MACVTAP=macvtap1
+
+#[Link]
+#MTUBytes=9000

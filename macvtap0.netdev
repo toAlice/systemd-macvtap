@@ -1,0 +1,8 @@
+[NetDev]
+Name=macvtap0
+Kind=macvtap
+#MACAddress=
+
+[MACVTAP]
+Mode=bridge
+
