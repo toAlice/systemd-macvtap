@@ -1,5 +1,5 @@
 # systemd-macvtap
-Setup 2 MacVTAP interfaces with systemd-networkd. Tested on Archlinux and 
+Setup 2 MacVTAP interfaces with systemd-networkd. Tested on Arch Linux 5.16.5-arch1-1
 
 ## Usage
 sudo make
