@@ -6,6 +6,7 @@ sudo make
 
 ## Configuration
 Configure physical interface in macvtap-interface.network
+
 (Optional) Add MAC address in `macvtap0.netdev` and `macvtap1.netdev`
 
 ## Tips
