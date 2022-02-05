@@ -1,7 +1,6 @@
 [Unit]
 Description=chmod rw-rw-rw- /dev/tap*
 
-
 [Service]
 Type=oneshot
 ExecStart=/bin/bash -c "/usr/bin/chmod 666 /dev/tap$(/usr/bin/cat /sys/class/net/%I/ifindex)"
@@ -10,4 +9,3 @@ RemainAfterExit=true
 
 [Install]
 WantedBy=sys-devices-virtual-net-%i.device
-
