@@ -5,7 +5,7 @@ Setup 2 MACVTAP interfaces with systemd-networkd. Tested on Arch Linux 5.16.5-ar
 sudo make
 
 ## Configuration
-- Configure physical interface in macvtap-interface.network
+- Configure physical interface in `macvtap-interface.network`
 
 - (Optional) Add MAC address in `macvtap0.netdev` and `macvtap1.netdev`
 
